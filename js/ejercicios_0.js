@@ -5,16 +5,16 @@ let stockDisponible = "5";
 let enOferta = "true";
 
 // calcular el precio con descuento usando operadores
-let precioFinal = PrecioOriginal - PrecioOriginal * descuento / 100;
+let PrecioFinal = PrecioOriginal - PrecioOriginal * descuento / 100;
 
 // Mostrar informacion del producto
 
 console.log("🔷 Producto", nombreProducto);
-console.log("🔷 Frecio Original: S/", PrecioOriginal);
+console.log("🔷 Precio Original: S/", PrecioOriginal);
 console.log("🔷 Descuento:", descuento, "%");
-console.log("🔷 Precio Final: S/", Preciofinal.toFixed/(2));
-console.ing("🔷StockDisponible:", stockDisponible);
-console.log("🔷 En ofertat", enOferta ? "Si" : "No");
+console.log("🔷 Precio Final: S/", PrecioFinal.toFixed/(2));
+console.log("🔷StockDisponible:", stockDisponible);
+console.log("🔷 En oferta", enOferta ? "Si" : "No");
 
 
 // simular compra y actualizar stock
