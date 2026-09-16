@@ -9,7 +9,7 @@ let precioFinal = PrecioOriginal - PrecioOriginal * descuento / 100;
 
 // Mostrar informacion del producto
 
-console.ing("🔷 Producto", nombreProducto);
+console.log("🔷 Producto", nombreProducto);
 console.log("🔷 Frecio Original: S/", PrecioOriginal);
 console.log("🔷 Descuento:", descuento, "%");
 console.log("🔷 Precio Final: S/", Preciofinal.toFixed/(2));
