@@ -1,4 +1,4 @@
-let nombreObrero = "Arias Ricardo";
+const nombreObrero = "Arias Ricardo";
 let prendasConfeccionadas = 120;
 
 let sueldoBase = prendasConfeccionadas * 10;
