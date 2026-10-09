@@ -1,0 +1,27 @@
+
+let promocion = 0.15;
+let carritoCompras = [
+  ["laptop", 850],
+  ["mouse", 10],
+  ["teclado", 120],
+];
+
+let total = 0;
+
+for (let i = 0; i < carritoCompras.length; i++) {
+  let precio = carritoCompras[i][1];
+  let descuento = 0;
+
+ 
+  if (precio > 100) {
+    descuento = precio * promocion;
+  }
+
+  total += precio - descuento;
+}
+
+console.log("Total a pagar: S/", total);
+
+
+
+
